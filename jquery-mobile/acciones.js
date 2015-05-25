@@ -3,7 +3,7 @@
 $(document).ready(function(e){
 	document.addEventListener("deviceready",function(){
 		
-		$('#iquierda').on("swipeleft",function(){
+		$('#izquierda').on("swipeleft",function(){
 			navigator.notification.alert("Deslizó a la iquierda",function(){"Aplicacion5","Aceptar"});
 		});//barrer izquierda
 		
@@ -20,7 +20,7 @@ $(document).ready(function(e){
 			case 2:
 			navigator.notification.vibrate(1000);
 			break;
-				}//switch opt
+		     }//switch opt
 			       },"Aplicacion5","Beep,Vibrar,Cancelar");//confirm
 			
 		});//barrer derecha
